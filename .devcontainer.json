@@ -1,0 +1,15 @@
+{
+  // Environment for GitHub Codespaces (VS Code in the browser, nothing to install).
+  // Same TeX Live image as the CI build.
+  "name": "LaTeX (TeX Live, same as CI)",
+  "image": "texlive/texlive:latest",
+  "postCreateCommand": "apt-get update && apt-get install -y --no-install-recommends git ca-certificates",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop",
+        "ltex-plus.vscode-ltex-plus"
+      ]
+    }
+  }
+}

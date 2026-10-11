@@ -1,0 +1,23 @@
+% !TEX root = ../main.tex
+\section{Introduction}
+\label{sec:intro}
+
+This section checks the basic text features. A paragraph is written as ordinary continuous text, and a single line break in the source does not change anything in the PDF,
+because LaTeX only starts a new paragraph at a blank line.
+
+A second paragraph should appear after a blank space and without indentation, which shows that the parskip package is active.
+The first page should have no header, a rule above the footer, and the three author emails at the bottom left.
+Clicking a symbol next to an author name should jump to the corresponding email, and clicking an email should open your mail program.
+From the second page on, the header should show the assignment on the left and the course on the right, with a thick rule below.
+
+The bibliography works if the following citations appear as numbers in brackets and not as question marks.
+Hawking showed that black holes emit thermal radiation~\cite{hawking1975particle}, and the classical theory of the oscillator used below can be found in any electrodynamics or mechanics text~\cite{jackson1999classical,goldstein2002classical}.
+The citation links should be dark red.
+
+Cross-references work if the following sentence contains working blue links with the right names and numbers.
+The model is derived in \cref{sec:theory}, its solution is \cref{eq:solution}, and the results are in \cref{fig:oscillator,tab:parameters}.
+
+Notes between co-authors appear as colored boxes inside the text:
+\todo{This is an example note. To hide every note, add the disable option to todonotes at the top of main.tex.}
+
+External links should be red, for example the \href{https://tug.org/texlive/}{TeX Live home page}.
