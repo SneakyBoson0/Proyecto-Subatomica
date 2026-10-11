@@ -1,10 +1,10 @@
-# Project title
+# Proyecto Subatómica
 
-[![LaTeX build](https://github.com/SneakyBoson0/Collaborative-Latex-Setup/actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
+[![LaTeX build](https://github.com/SneakyBoson0/Proyecto-Subatomica/actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
 
 **📄 [Read the latest PDF](../../blob/pdf/main.pdf)** · [Finished versions](../../releases) · [Package guide](PACKAGES.md)
 
-This repository holds the LaTeX source of *Project title*. We use it instead of
+This repository holds the LaTeX source of *Proyecto Subatómica*. We use it instead of
 Overleaf: the text lives here, Git keeps the history, and GitHub compiles the PDF
 every time someone uploads changes.
 
@@ -132,8 +132,8 @@ Then download the project and open it:
 ```powershell
 mkdir $HOME\Documents\GitHub -Force
 cd $HOME\Documents\GitHub
-gh repo clone SneakyBoson0/Collaborative-Latex-Setup
-cd Collaborative-Latex-Setup
+gh repo clone SneakyBoson0/Proyecto-Subatomica
+cd Proyecto-Subatomica
 code .
 ```
 
